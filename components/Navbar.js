@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar() {
-  const { user, login } = useContext(AuthContext);
+  const { user, login, logout } = useContext(AuthContext);
   console.log(user);
 
   return (
@@ -25,6 +25,9 @@ export default function Navbar() {
           </li>
           <li onClick={login} className="btn">
             Login/Signup
+          </li>
+          <li onClick={logout} className="btn">
+            Log out
           </li>
         </ul>
       </nav>
