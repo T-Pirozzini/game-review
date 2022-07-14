@@ -6,7 +6,7 @@ Game Review web application using Next.js and Netlify Identity for authenticatio
 
 ## :camera: Screenshot
 
-![home]()
+![home](https://github.com/T-Pirozzini/game-review/blob/main/public/home.png?raw=true)
 
 ## Code Tutorial:
 
